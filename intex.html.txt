@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Energy Monitoring Dashboard</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f6ff;
+}
+header {
+    background: #1e90ff;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+section {
+    padding: 40px;
+}
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0b5ed7;
+}
+footer {
+    background: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>⚡ Smart Energy Monitoring Dashboard</h1>
+    <p>Track • Analyze • Save Electricity</p>
+</header>
+
+<section>
+
+<div class="card">
+<h2>About the Project</h2>
+<p>
+The Smart Energy Monitoring Dashboard is a web-based application designed
+to track electricity consumption, calculate energy costs, and visualize
+daily usage trends. It helps households and offices reduce power wastage
+and improve energy efficiency.
+</p>
+</div>
+
+<div class="card">
+<h2>Key Features</h2>
+<ul>
+<li>Appliance-wise energy calculation</li>
+<li>Total electricity consumed per day</li>
+<li>Energy cost estimation</li>
+<li>Previous 6 days usage tracking</li>
+<li>Interactive charts and tables</li>
+<li>CSV export of usage data</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Technologies Used</h2>
+<p>
+<b>Frontend:</b> HTML, CSS, JavaScript, Chart.js<br>
+<b>Backend (Future Scope):</b> Node.js / Flask for database integration
+</p>
+</div>
+
+<div class="card" style="text-align:center;">
+<h2>Live Demo</h2>
+<a href="dashboard.html">
+<button>🚀 Open Dashboard</button>
+</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 Smart Energy Monitoring Project
+</footer>
+
+</body>
+</html>
